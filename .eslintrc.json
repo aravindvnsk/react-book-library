@@ -1,0 +1,130 @@
+{
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true,
+        "jquery": true,
+        "mocha": true
+    },
+    "parser": "babel-eslint",
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "ecmaVersion": 6,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "semi": [
+            "error",
+            "always"
+        ],
+        "array-callback-return": "warn",
+        "camelcase": [
+            "warn",
+            {
+                "properties": "always"
+            }
+        ],
+        "comma-dangle": [
+            "warn",
+            "never"
+        ],
+        "comma-style": [
+            "warn",
+            "last"
+        ],
+        "eol-last": "off",
+        "jsx-quotes": "error",
+        "no-alert": "off",
+        "no-console": "warn",
+        "no-debugger": "error",
+        "no-lone-blocks": "off",
+        "no-trailing-spaces": "off",
+        "no-underscore-dangle": "off",
+        "no-unused-vars": "off",
+        "no-var": "error",
+        "quotes": "off",
+        "react/display-name": "off",
+        "react/forbid-prop-types": "off",
+        "react/no-comment-textnodes": "off",
+        "react/no-danger": "warn",
+        "react/no-danger-with-children": "warn",
+        "react/no-deprecated": "warn",
+        "react/no-did-mount-set-state": "warn",
+        "react/no-did-update-set-state": "warn",
+        "react/no-direct-mutation-state": "warn",
+        "react/no-find-dom-node": "warn",
+        "react/no-is-mounted": "warn",
+        "react/no-multi-comp": [
+            "warn",
+            {
+                "ignoreStateless": true
+            }
+        ],
+        "react/no-render-return-value": "warn",
+        "react/no-set-state": "off",
+        "react/no-string-refs": "warn",
+        "react/no-unknown-property": "warn",
+        "react/no-unused-prop-types": "off", // https://github.com/yannickcr/eslint-plugin-react/issues/944
+        "react/prefer-es6-class": [
+            "warn",
+            "always"
+        ],
+        "react/prefer-stateless-function": "off",
+        "react/prop-types": "warn",
+        "react/react-in-jsx-scope": "warn",
+        "react/require-optimization": "off",
+        "react/require-render-return": "warn",
+        "react/self-closing-comp": "warn",
+        "react/sort-comp": "warn",
+        "react/sort-prop-types": "off",
+        "react/style-prop-object": "warn",
+        "react/jsx-boolean-value": [
+            "warn",
+            "always"
+        ],
+        "react/jsx-curly-spacing": [
+            "warn",
+            "never",
+            {
+                "allowMultiline": true
+            }
+        ],
+        "react/jsx-equals-spacing": [
+            "warn",
+            "never"
+        ],
+        "react/jsx-filename-extension": [
+            "warn",
+            {
+                "extensions": [
+                    ".js"
+                ]
+            }
+        ],
+        "react/jsx-first-prop-new-line": [
+            "warn",
+            "multiline"
+        ],
+        "react/jsx-handler-names": "off",
+        "react/jsx-key": "warn",
+        "react/jsx-max-props-per-line": "off",
+        "react/jsx-no-bind": "error",
+        "react/jsx-no-duplicate-props": "warn",
+        "react/jsx-no-literals": "off",
+        "react/jsx-no-target-blank": "warn",
+        "react/jsx-no-undef": "error",
+        "react/jsx-pascal-case": "warn",
+        "react/jsx-sort-props": "off",
+        "react/jsx-uses-react": "warn",
+        "react/jsx-uses-vars": "warn",
+        "react/jsx-wrap-multilines": "warn",
+        "no-undef": "off"
+    }
+}
