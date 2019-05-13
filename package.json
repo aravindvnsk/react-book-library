@@ -1,5 +1,5 @@
 {
-  "name": "all365daysms",
+  "name": "ebookLibrary",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +9,8 @@
     "build": "webpack -d && copy client\\index.html dist\\index.html && webpack-dev-server --content-base client/ --inline --hot --open",
     "build:prod": "webpack -p && copy client\\index.html dist\\index.html"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Aravind",
+  "license": "Int",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
